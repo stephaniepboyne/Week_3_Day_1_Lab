@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CodeClan News</title>
+</head>
+<body>
+   <header>
+       <h1 id="logo">CodeClan News</h1>
+       <nav>
+           <ul>
+                <li><a href="/home">Home</a></li>
+                <li><a href="/blog">Blog</a></li>
+                <li><a href="/">Contact</a></li>
+            </ul>
+       </nav>
+   </header> 
+   <main>
+            <div id="toprow">
+                <div class="column1">
+                    <section>
+                    <h2>Login</h2>
+                    <form action="/action_page.php" id="usrform">
+                        Email: <input type="email" name="email"><br /><br />
+                        Password: <input type="password" name="password"><br /><br />
+                        <input type="submit">
+                    </form>
+                </section>
+                <section>
+                    <h2>Categories</h2>
+                    <ul>
+                            <li><a href="/home">Rabbits</a></li>
+                            <li><a href="/blog">Cats</a></li>
+                            <li><a href="/">Dogs</a></li>
+                        </ul>
+                    </section>  
+                </div> <!-- End of column div-->
+                <div class="column2">
+                    <section>
+                        <h2>Latest</h2>
+                        <h3>Breaking News</h3>
+                    </section>
+                    <section class="headline">
+                        <img src="images/cat.jpeg" alt="Cat" width="300px"/> 
+                        <h4>This Cat Can Speak Four Languages</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed dapibus metus.</p>
+                    </section>
+                    <section class="headline">
+                        <img src="images/dog.jpeg" alt="Dog" width="300px"/> 
+                        <h4>Angry Dog Ate My Cornflakes</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed dapibus metus.</p>
+                    </section>
+                </div>
+            </div> <!-- End of toprow div-->
+
+       <article>
+           <hgroup>
+                <h2>The CodeClan Gazzette</h2>
+                <h3>Some Amazing Author</h3>
+            </hgroup>
+            <main>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed dapibus metus. Phasellus nec nisl tortor. Ut ut placerat orci, eu lacinia elit. Fusce quis dui sed arcu tempor varius. Morbi vulputate rhoncus tellus, nec facilisis dui semper a. Sed pharetra rutrum ex, eu porta eros interdum sed. Aenean tincidunt velit massa, sit amet eleifend sapien lobortis eu. Curabitur ac rutrum nisi. Ut enim nunc, pretium nec feugiat a, ornare a leo. Fusce auctor vitae massa in convallis.</p>
+
+                <p>Nullam ut nunc aliquet, auctor risus non, hendrerit odio. In sit amet faucibus mi. Etiam sodales aliquet sagittis. Praesent vel leo nisi. Mauris lacinia, leo a ultricies facilisis, erat massa varius urna, sed hendrerit tellus magna quis diam. Sed finibus turpis vel ante lacinia, vitae bibendum mi pretium. Duis vulputate nisi ut sollicitudin ultrices. Donec in sagittis metus, ut blandit ante. Nunc in enim non velit scelerisque gravida. Donec in dolor eu enim aliquet lacinia. Mauris quis diam vel lacus blandit bibendum eget vitae urna. Quisque tristique, purus vitae rhoncus vulputate, urna lacus ullamcorper urna, ut consectetur lacus magna vitae neque. Donec vel sapien elit. Etiam pretium iaculis ex id ornare.</p>
+
+                <p>Aliquam erat volutpat. Duis vestibulum vulputate ligula, in laoreet dolor molestie a. Ut a nisl pharetra, sodales urna non, placerat turpis. Mauris efficitur purus nec lacus vehicula, eget efficitur justo ultricies. Etiam sodales molestie tellus, sed ornare sapien egestas a. Integer pharetra justo ac urna ultrices laoreet. Vestibulum tristique enim vel blandit cursus.</p>
+
+                <p>Morbi mattis ex purus, id pretium sem imperdiet vel. Proin non augue libero. Maecenas vehicula, purus vitae pellentesque porttitor, dolor dui cursus purus, a finibus lorem tellus sit amet augue. Vivamus dictum dui eu consectetur pulvinar. Cras non consequat ipsum. Donec vel rutrum risus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras eget tincidunt metus.</p>
+
+                <p>Mauris suscipit dui eu ipsum efficitur, ac mattis neque aliquet. Ut scelerisque arcu id ante congue malesuada. Pellentesque fringilla ornare ex sed luctus. Donec congue nisi ac nunc gravida laoreet. Duis quis augue molestie massa malesuada malesuada. Praesent aliquet at ligula sed lacinia. Mauris a ultrices odio, sed hendrerit dui. Proin fringilla neque fringilla justo efficitur luctus. Nulla sit amet orci gravida, ornare tellus sed, pulvinar ligula. Suspendisse potenti. Cras congue est mi, vitae sollicitudin justo malesuada a. Nunc laoreet et lacus et placerat. Nunc risus ligula, mollis ac luctus et, placerat in ipsum. Phasellus in scelerisque ligula. Duis eu erat non odio accumsan egestas. Duis gravida velit eu tristique placerat.</p>
+                </main>        
+       </article>
+
+       <section>
+        <h2>Comments</h2>
+        <textarea rows="4" cols="100" name="comment" form="comment-form">Leave a comment!</textarea>
+            <form action="/no-page-here.php" id="comment-form">
+                <input type="submit">
+            </form>
+
+       </section>
+
+       <section class="commenters"> 
+            <img src="images/jon.jpeg" alt="Jon" width="200px" />
+            <h3>Jon</h3>
+            <h4>Posted: Today</h4>
+            <p>Shockingly bad design folks!</p>
+       </section>
+       <section class="commenters"> 
+        <img src="images/john.jpeg" alt="John" width="200px" />
+        <h3>Jon</h3>
+        <h4>Posted: Today</h4>
+        <p>Don't listen to Jon. This is a masterpiece.</p>
+   </section>
+
+   </main>
+
+   <footer>
+       <h4>&copy; CodeClan News 2022</h4>
+   </footer>
+
+    
+</body>
+</html>

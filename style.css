@@ -1,0 +1,90 @@
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+body > p {
+    margin:5px;
+}
+
+body > header {
+    background-color: dodgerblue;
+    margin: 0;
+}
+#logo {
+    color: white;
+    margin: auto;
+    padding: 10px;
+    float:left;
+}
+
+body > header > nav {
+    text-align:right;
+    padding: 10px
+}
+
+body > header > nav > ul {
+    list-style-type: none;
+    display:inline-block;
+}
+
+body > header > nav > ul > li {
+    display: inline;
+    margin:0 5px;
+}
+
+body > header > nav > ul > li a {
+    color:white;
+}
+
+body > footer {
+    background-color: dodgerblue;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+body > main > article {
+    margin: auto;
+    
+}
+
+body > main {
+    margin: auto;
+    padding: 10px; 
+    width:80%;
+}
+
+.commenters {
+width:40%;
+margin: 15px 15px 15px 0;
+padding: 10px 0;
+border-top: 3px dotted blue;
+}
+
+#toprow {
+    width:100%;
+    display: table;
+    clear: both;
+}
+
+.column1 {
+    float: left;
+    width: 30%;
+}
+
+.column2 {
+    float: left;
+    width: 70%;
+}
+
+.headline img {
+    margin-right:15px;
+    float:left;
+}
+
+.headline {
+    padding: 15px;
+    clear: both;
+}
